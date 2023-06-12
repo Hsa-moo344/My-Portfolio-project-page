@@ -29,39 +29,48 @@ h2 {
   font-size: 64px;
 }
 
-.p {
+p {
   font-weight: normal;
   font-size: 16px;
-  line-height: 10px;
+  line-height: 30px;
 }
 
-.container {
+.hero {
   background: var(--secondary-color);
   text-align: center;
   padding: 160px 20px;
 }
-.sub-container {
-  text-align: center;
-  font-size: 26px;
-  background-color: pink;
-  color: white;
-}
 
-.container p {
-  font-size: 16px;
+.hero p {
+  font-size: 36px;
   font-weight: bold;
   margin: 0;
   color: #272142;
 }
-.img {
-  border-radius: 30px;
-}
 
-.container h2 {
+.hero h2 {
   font-family: var(--heading-font-family);
   font-weight: normal;
   line-height: 1.5;
   font-size: 24px;
+}
+
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-section-content {
+  margin: 30px;
 }
 
 .btn-branding {
@@ -71,7 +80,6 @@ h2 {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
-  font-style: justify;
 }
 
 .btn-branding-outline {
@@ -81,7 +89,6 @@ h2 {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
-  font-style: justify;
 }
 
 .project-desciption {
@@ -91,18 +98,24 @@ h2 {
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
-    line-height: 2;
+    line-height: 56px;
   }
 
   h2 {
     font-size: 44px;
   }
 
-  .container {
+  .hero {
     padding: 80px 20px;
   }
-  .btn-branding-outline {
-    background-color: blueviolet;
-    color: white;
+
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+
+  .project-desciption {
+    padding: 0;
+    text-align: center;
   }
 }
